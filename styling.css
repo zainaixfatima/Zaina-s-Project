@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: gilroy;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+        background-color: chartreuse;
+    
+}
+nav{
+    
+    padding: 60px 100px;
+    width: auto;
+    display: flex;
+align-items: center;
+justify-content: space-between;
+}
+ nav .part2{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 50px;
+    
+}
+nav h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+ nav a{
+font-size: 20px;
+color:black;
+text-decoration: none;
+font-weight: 400;
+ }
+ section .hero1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+
+
+ }
+.hero1 h1{
+    font-size: 150px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.hero1 .video{
+    height:100px;
+    width:500px;
+    background-color: black;
+    border-radius:100px;
+}
+h1{
+  font-size: 150px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+section .hero2 p {
+ display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+hero2{
+    height:100px;
+    width:500px;
+    background-color: black;
+    border-radius:100px;
+}
